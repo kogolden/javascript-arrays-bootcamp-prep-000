@@ -8,14 +8,15 @@ function destructivelyAddElementToBeginningOfArray(Array, Element) {
   Array.unshift(Element)
   return Array
 }
-function accessElementToEndOfArray(Array, Element) {
+function addElementToEndOfArray(Array, Element) {
   Array = [...Array, Element];
   return Array
 }
-function addElementToEndOfArray(Array, Element) {
-  
-}
 function destructivelyAddElementToEndOfArray(Array, Element) {
+  Array.push(Element)
+  return Array
+}
+function accessElementInArray(Array, Element) {
   
 }
 function accessElementToEndOfArray(Array, Element) {
