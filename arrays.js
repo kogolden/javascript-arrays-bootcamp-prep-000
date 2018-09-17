@@ -24,13 +24,11 @@ function destructivelyRemoveElementFromBeginningOfArray(Array, Element) {
   return Array
 }
 function removeElementFromBeginningOfArray(Array) {
-  Array.slice(1)
-  console.log(Array)
+  return Array.slice(1)
 }
 function destructivelyRemoveElementFromEndOfArray(Array, Element) {
   
 }
 function removeElementFromEndOfArray(Array) {
-  Array.slice(-1)
-  return Array
+  return Array.slice(-1)
 }
