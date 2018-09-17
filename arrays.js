@@ -28,10 +28,10 @@ function removeElementFromBeginningOfArray(Array) {
   return Array
 }
 function destructivelyRemoveElementFromEndOfArray(Array, Element) {
-  Array = Array.pop()
+  Array = Array.pop(-1)
   return Array
 }
 function removeElementFromEndOfArray(Array) {
-  Array = Array.pop(-1)
+  Array = Array.slice(0, Array.length - 1)
   return Array
 }
