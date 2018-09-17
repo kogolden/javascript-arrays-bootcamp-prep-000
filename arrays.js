@@ -9,7 +9,8 @@ function destructivelyAddElementToBeginningOfArray(Array, Element) {
   return Array
 }
 function accessElementToEndOfArray(Array, Element) {
-  
+  Array = [...Array, Element];
+  return Array
 }
 function addElementToEndOfArray(Array, Element) {
   
