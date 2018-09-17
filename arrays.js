@@ -28,4 +28,6 @@ function removeElementFromBeginningOfArray(Array, ELement) {
 function destructivelyRemoveElementFromEndOfArray(Array, Element) {
   
 }
-function 
+function removeElementFromEndOfArray(Array, Element) {
+  
+}
