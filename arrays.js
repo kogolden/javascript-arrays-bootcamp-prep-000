@@ -1,9 +1,9 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
-function addElementToEndOfArray(a, b) {
+function addElementToBeginningOfArray(a, b) {
   
 }
-function destructivelyAddElementToEndOfArray(a, b) {
+function destructivelyAddElementToBeginningOfArray(a, b) {
   
 }
 function accessElementToEndOfArray(array, index) {
